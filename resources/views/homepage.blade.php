@@ -5,9 +5,9 @@
 @endsection
 
 @section('mainContent')
-<ul>
+<ul class="container">
     @foreach ($movies as $movie)
-        <li>
+        <li class="cards">
             <p>Titolo: {{$movie["title"]}}</p>
             <p>Titolo originale: {{$movie["original_title"]}}</p>
             <p>Nazionalit&agrave;: {{$movie["nationality"]}}</p>
