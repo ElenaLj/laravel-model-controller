@@ -70,3 +70,11 @@ main {
   color: #052541;
 }
 
+.footer {
+  height: 80px;
+  padding-top: 30px;
+  color: #fff;
+  background-color: #042541;
+  text-align: center;
+}
+
