@@ -50,8 +50,9 @@ ul {
 }
 
 main {
-  background: #ffafac;
-  background: linear-gradient(0deg, rgba(255, 175, 172, 0.5704656863) 33%, rgba(255, 108, 213, 0.4136029412) 64%);
+  padding: 35px 0;
+  background: #052541;
+  background: linear-gradient(180deg, rgba(5, 37, 65, 0.1615021008) 26%, rgba(255, 255, 255, 0.5844712885) 60%);
 }
 
 .cards {
@@ -60,7 +61,12 @@ main {
   height: 350px;
   padding: 20px;
   background-color: #fff;
-  border: 3px solid #042541;
+  border: 3px solid #00D277;
   border-radius: 20px;
+}
+
+.details {
+  margin-top: 1.25rem;
+  color: #052541;
 }
 
