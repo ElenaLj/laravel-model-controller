@@ -23,6 +23,32 @@ ul {
   list-style: none;
 }
 
+.header {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #042541;
+}
+
+.header__logo {
+  height: 6.25rem;
+}
+
+.header__items {
+  display: flex;
+}
+
+.header__item {
+  margin: 0 1.25rem;
+}
+
+.header__item a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 main {
   background: #ffafac;
   background: linear-gradient(0deg, rgba(255, 175, 172, 0.5704656863) 33%, rgba(255, 108, 213, 0.4136029412) 64%);
