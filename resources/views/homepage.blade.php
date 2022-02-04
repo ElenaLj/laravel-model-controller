@@ -1,5 +1,10 @@
-<h1>Route check</h1>
-{{-- @dump($movies) --}}
+@extends('layouts.foundation')
+
+@section('pageTitle')
+    Home
+@endsection
+
+@section('mainContent')
 <ul>
     @foreach ($movies as $movie)
         <li>
@@ -10,4 +15,5 @@
             <p>Rating: {{$movie["vote"]}}</p>
         </li>
     @endforeach
-</ul>
+</ul>    
+@endsection
